@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>電梯廣播</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body ontouchstart>
+    <button class="elevator" onclick="play('6f.mp3')">6</button>
+    <button class="elevator" onclick="play('12f.mp3')">12</button>
+    <button class="elevator" onclick="play('5f.mp3')">5</button>
+    <button class="elevator" onclick="play('11f.mp3')">11</button>
+    <button class="elevator" onclick="play('4f.mp3')">4</button>
+    <button class="elevator" onclick="play('10f.mp3')">10</button>
+    <button class="elevator" onclick="play('3f.mp3')">3</button>
+    <button class="elevator" onclick="play('9f.mp3')">9</button>
+    <button class="elevator" onclick="play('2f.mp3')">2</button>
+    <button class="elevator" onclick="play('8f.mp3')">8</button>
+    <button class="elevator" onclick="play('1f.mp3')">1</button>
+    <button class="elevator" onclick="play('7f.mp3')">7</button>
+    <button class="elevator" onclick="play('b1f.mp3')">B1</button>
+    <button class="hidden" onclick="black()">0</button>
+    <button class="elevator" onclick="play('open.mp3')">開</button>
+    <button class="elevator" onclick="play('close.mp3')">關</button>
+    <button class="elevator" onclick="play('up.mp3')">上</button>
+    <button class="elevator" onclick="play('down.mp3')">下</button>
+    <audio id="player">
+        <source id="source" src="">
+    </audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

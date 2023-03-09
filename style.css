@@ -1,0 +1,35 @@
+body {
+    background: #222422;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.elevator {
+    width: 17vw;
+    height: 17vw;
+    font-size: 9vw;
+    border-radius: 100%;
+    background: none;
+    border: 5px solid #999;
+    color: #999;
+    font-family: sans-serif;
+    transition: 0.1s;
+    margin: 1.5vw 14vw;
+}
+
+.elevator:active {
+    color: #ffce5a;
+    border: 5px solid #ffce5a;
+    background: #2f302f;
+    box-shadow: 0px 0px 10px 2px #ffce5a;
+}
+
+.hidden {
+    width: 17vw;
+    height: 17vw;
+    opacity: 0;
+    margin: 1.5vw 14vw;
+}
