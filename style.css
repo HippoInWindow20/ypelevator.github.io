@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Gill Sans";
+    font-weight: 500;
+    src: url('GillSans.woff')
+}
+  
+
 body {
     background: url('bg.jpg');
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -11,12 +18,12 @@ body {
 .elevator {
     width: 9vh;
     height: 9vh;
-    font-size: 4vh;
+    font-size: 5vh;
     border-radius: 100%;
     background: none;
-    border: 5px solid rgb(240, 240, 240);
+    border: 3px solid rgb(240, 240, 240);
     color: rgb(240, 240, 240);
-    font-family: sans-serif;
+    font-family: 'Gill Sans','Noto Sans TC',sans-serif;
     transition: 0.1s;
     margin: 0.8vh 7vh;
 }
